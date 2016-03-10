@@ -9,4 +9,4 @@ echo export DEBIAN_FRONTEND=noninteractive >> /etc/bash.bashrc"
 
 RUN bash -lec "\
 apt-get update; \
-apt-get install -y curl vim"
+apt-get install -y curl vim build-essential"
