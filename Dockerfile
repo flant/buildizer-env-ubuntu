@@ -1,6 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER flant <256@flant.com>
 ENTRYPOINT ["/bin/bash", "--login", "-c"]
+ENV LANG en_US.UTF-8
 CMD ["/bin/bash"]
 
 RUN bash -lec "\
