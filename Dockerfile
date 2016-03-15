@@ -22,4 +22,4 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import -; \
 curl -sSL https://get.rvm.io | bash -s stable"
 RUN bash -lec "rvm install 2.2.1 --quiet-curl"
 
-RUN bash -lec "gem install package_cloud"
+RUN bash -lec "gem install fpm"
