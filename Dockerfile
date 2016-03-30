@@ -14,7 +14,7 @@ echo export DEBIAN_FRONTEND=noninteractive >> /etc/bash.bashrc"
 
 RUN bash -lec "\
 apt-get update; \
-apt-get install -y curl vim build-essential"
+apt-get install -y curl vim build-essential dpkg-dev devscripts"
 
 RUN bash -lec "\
 curl -sSL https://rvm.io/mpapis.asc | gpg --import -; \
