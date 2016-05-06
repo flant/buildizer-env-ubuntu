@@ -1,7 +1,5 @@
 FROM ubuntu:14.04
 MAINTAINER flant <256@flant.com>
-ENTRYPOINT ["/bin/bash", "--login", "-c"]
-CMD ["/bin/bash"]
 
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
